@@ -1,7 +1,38 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+yell = (string) => {
+  return string + '!';
+}
 
+getFirstCharacter = (string) => {
+  return string[0];
+}
+
+getLastCharacter = (string) => {
+  return string[string.length-1];
+}
+
+getOneCharacter = (character) => {
+  return character[1];
+}
+
+getTwoCharacters = (str, num1, num2) => {
+  return str.charAt(num1) + str.charAt(num2);
+}
+
+makeCapitalized = (str) => {
+  return str.toUpperCase();
+}
+
+yellLouder = (str) => {
+  return str.toUpperCase() + '!!!';
+}
+
+getInitials = (initials) => {
+  const indexOf = initials.indexOf(' ')
+  return initials[0] + '.' + initials[indexOf + 1] + '.';
+}
 
 
 
